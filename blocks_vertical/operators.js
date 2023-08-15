@@ -325,7 +325,7 @@ Blockly.Blocks['operator_nand'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "%1 nand %2",
+      "message0": Blockly.Msg.OPERATORS_NAND,
       "args0": [
         {
           "type": "input_value",
@@ -350,7 +350,7 @@ Blockly.Blocks['operator_nor'] = {
    */
   init: function () {
     this.jsonInit({
-      "message0": "%1 nor %2",
+      "message0": Blockly.Msg.OPERATORS_NOR,
       "args0": [
         {
           "type": "input_value",
@@ -375,7 +375,7 @@ Blockly.Blocks['operator_xor'] = {
    */
   init: function () {
     this.jsonInit({
-      "message0": "%1 xor %2",
+      "message0": Blockly.Msg.OPERATORS_XOR,
       "args0": [
         {
           "type": "input_value",
@@ -400,7 +400,7 @@ Blockly.Blocks['operator_xnor'] = {
    */
   init: function () {
     this.jsonInit({
-      "message0": "%1 xnor %2",
+      "message0": Blockly.Msg.OPERATORS_XNOR,
       "args0": [
         {
           "type": "input_value",
